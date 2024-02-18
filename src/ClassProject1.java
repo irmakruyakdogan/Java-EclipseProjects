@@ -21,7 +21,7 @@ public class ClassProject1 {
 			System.out.println("CB");
 		}
 		else {
-			System.out.println("AA");
+			System.out.println("AA"); 
 		}
 		
 
