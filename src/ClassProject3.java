@@ -15,6 +15,7 @@ public class ClassProject3 {
 		while (sayi >= 1) {
 			
 			factorial = factorial * sayi;
+			
 			sayi--;
 			
 		}
