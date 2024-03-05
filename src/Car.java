@@ -8,6 +8,14 @@ public class Car {
 	public double engine;
 	private int doors;
 	
+	// Constructors
+	public Car(String color, int doors) {
+		
+		this.color = color;
+		this.doors = doors;
+		
+	}
+	
 	public int getDoors() {
 		return doors;
 	}
@@ -34,6 +42,13 @@ public class Car {
 	
 	public String getColor() {
 		return this.color;
+	}
+	
+	public void showInf() {
+		
+		System.out.println("Color: " + this.color);
+		System.out.println("Doors: " + this.doors);
+		
 	}
 
 }
