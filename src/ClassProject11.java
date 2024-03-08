@@ -13,6 +13,8 @@ public class ClassProject11 {
 		
 		//manager.raiseSalary(500);
 		
+		Employee employee = new Manager("Luna<3", "IT", 600, 5);
+		
 		System.out.println(manager);
 		
 	}
