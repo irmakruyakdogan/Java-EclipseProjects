@@ -1,11 +1,22 @@
 public class Product {
 
+    public Product(int id, String name, String description, double price, int stockAmount, String color) {
+        System.out.println("It's working!");
+        this.id = id;
+        this.color = color;
+        this.name = name;
+        this.price = price;
+        this.descriptions = description;
+        this.stock = stockAmount;
+    }
+
     //attribute & field
     private String name;
     private String descriptions;
     private double price;
     private int stock;
     private int id;
+    private String color;
 
     public String getName() {
         return name;
@@ -45,5 +56,13 @@ public class Product {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }
