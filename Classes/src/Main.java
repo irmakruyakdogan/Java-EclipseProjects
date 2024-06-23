@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        CustomerManager customerManager = new CustomerManager();
+        /*CustomerManager customerManager = new CustomerManager();
         customerManager.Add();
         customerManager.Remove();
         customerManager.Update();
@@ -13,6 +13,9 @@ public class Main {
         numbers2 = numbers1;
         numbers1[0] = 10;
         System.out.println(numbers2[0]);
+         */
+
+        ICustomerDal customerDal = new OracleCustomerDal();
 
     }
 }
